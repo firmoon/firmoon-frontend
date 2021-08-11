@@ -17,7 +17,7 @@ const ReclaimPositionButton: React.FC<ReclaimPositionButtonProps> = ({ epoch, on
   const { toastSuccess, toastError } = useToast()
 
   const handleReclaim = async () => {
-    const tx = await predictionsContract.claim(epoch)
+    const tx = await predictionsContract.claim([epoch])
     setIsPendingTx(true)
 
     const receipt = await tx.wait()

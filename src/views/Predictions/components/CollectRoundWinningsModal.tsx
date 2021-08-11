@@ -65,7 +65,7 @@ const CollectRoundWinningsModal: React.FC<CollectRoundWinningsModalProps> = ({
 
   const handleClick = async () => {
     try {
-      const tx = await predictionsContract.claim(epoch)
+      const tx = await predictionsContract.claim([epoch])
       setIsPendingTx(true)
       const receipt = await tx.wait()
 
