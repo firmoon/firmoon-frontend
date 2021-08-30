@@ -1,4 +1,4 @@
-import { InjectedModalProps } from '@pancakeswap/uikit'
+import { InjectedModalProps } from 'firmoon-uikit'
 
 export enum ConfirmVoteView {
   MAIN = 'main',

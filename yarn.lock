@@ -2603,19 +2603,6 @@
     tiny-warning "^1.0.3"
     toformat "^2.0.0"
 
-"@pancakeswap/uikit@^0.47.0":
-  version "0.47.0"
-  resolved "https://registry.yarnpkg.com/@pancakeswap/uikit/-/uikit-0.47.0.tgz#bc9339fad9af1736aefc2bbdf11d3140d8dbdf33"
-  integrity sha512-twj+mTF/jppb8SBlFFkEhj1d9ECcxplOcSetx747msEEMWBgslpBgRjv4g047Pl13QXi7k5cAbJccVRDY3oMcw==
-  dependencies:
-    "@popperjs/core" "^2.9.2"
-    "@types/lodash" "^4.14.168"
-    "@types/styled-system" "^5.1.10"
-    lodash "^4.17.20"
-    react-popper "^2.2.5"
-    react-transition-group "^4.4.1"
-    styled-system "^5.1.5"
-
 "@pmmmwh/react-refresh-webpack-plugin@0.4.3":
   version "0.4.3"
   resolved "https://registry.yarnpkg.com/@pmmmwh/react-refresh-webpack-plugin/-/react-refresh-webpack-plugin-0.4.3.tgz#1eec460596d200c0236bf195b078a5d1df89b766"
@@ -9834,6 +9821,19 @@ find-versions@^3.2.0:
   integrity sha512-P8WRou2S+oe222TOCHitLy8zj+SIsVJh52VP4lvXkaFVnOFFdoWv1H1Jjvel1aI6NCFOAaeAVm8qrI0odiLcww==
   dependencies:
     semver-regex "^2.0.0"
+
+firmoon-uikit@^0.48.3:
+  version "0.48.3"
+  resolved "https://registry.yarnpkg.com/firmoon-uikit/-/firmoon-uikit-0.48.3.tgz#5d23e2916ae6028f76f165b5a8ea47205232f4cd"
+  integrity sha512-tWA035sCo9YEzZ6TN8HzrbcI9BqvCkpfwuwhCnpquceQl+P55Addap8iuuna5Bajal8qJxzyjKdDvvPeL4CKIQ==
+  dependencies:
+    "@popperjs/core" "^2.9.2"
+    "@types/lodash" "^4.14.168"
+    "@types/styled-system" "^5.1.10"
+    lodash "^4.17.20"
+    react-popper "^2.2.5"
+    react-transition-group "^4.4.1"
+    styled-system "^5.1.5"
 
 first-chunk-stream@^1.0.0:
   version "1.0.0"

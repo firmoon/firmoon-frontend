@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import styled from 'styled-components'
-import { useMatchBreakpoints } from '@pancakeswap/uikit'
+import { useMatchBreakpoints } from 'firmoon-uikit'
 import BigNumber from 'bignumber.js'
 import { Pool } from 'state/types'
 import { useCakeVault } from 'state/pools/hooks'
